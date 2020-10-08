@@ -13,9 +13,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -66,8 +64,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Components</span>
                 </a>
@@ -82,13 +79,11 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Utilities</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
                         <a class="collapse-item" href="utilities-color.html">Colors</a>
@@ -109,8 +104,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pages</span>
                 </a>
@@ -170,11 +164,9 @@
                     </form>
 
                     <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">
                                     <i class="fas fa-search fa-sm"></i>
@@ -188,18 +180,14 @@
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
                             <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                                aria-labelledby="searchDropdown">
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
                                 <form class="form-inline mr-auto w-100 navbar-search">
                                     <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small"
-                                            placeholder="Search for..." aria-label="Search"
-                                            aria-describedby="basic-addon2">
+                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="button">
                                                 <i class="fas fa-search fa-sm"></i>
@@ -214,15 +202,12 @@
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
-                                <img class="img-profile rounded-circle"
-                                    src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
                             </a>
                             <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="userDropdown">
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
@@ -264,64 +249,61 @@
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Name</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Name" name="p_name">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Product Name" name="p_name">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Code</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Code" name="p_code">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Product Code" name="p_code">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Price</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Price" name="p_price">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Product Price" name="p_price">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Type</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Type" name="p_type">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Product Type" name="p_type">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Catergory</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Catergory" name="category">
+                                        <select class="form-control form-control-sm" name="category">
+                                            <option>Select Catergory</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Length</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Length" name="length">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Length" name="length">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Width</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Width" name="width">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Width" name="width">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Height</label>
                                     <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Height" name="height">
+                                        <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Height" name="height">
                                     </div>
                                 </div>
 
@@ -340,8 +322,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <h2>Drag and Drop File Upload using Dropzone JS and PHP - NiceSnippets.com</h2>
-                                <form action="upload.php" enctype="multipart/form-data" class="dropzone"
-                                    id="image-upload">
+                                <form action="upload.php" enctype="multipart/form-data" class="dropzone" id="image-upload">
                                     <div>
                                         <h3>Drag and Drop File</h3>
                                     </div>
@@ -378,8 +359,7 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
