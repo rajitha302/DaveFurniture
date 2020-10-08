@@ -41,26 +41,32 @@ if (count($errors)==0){
 }
 }
 
-// insert details to website table
-if (isset($_POST['addweb']))
+// insert details to product table
+if (isset($_POST['addproduct']))
 {
-$webname= ($_POST['web_name']);
-$url= ($_POST['url']);
+$p_name= ($_POST['p_name']);
+$p_code= ($_POST['p_code']);
+$p_price= ($_POST['p_price']);
+$p_type= ($_POST['p_type']);
+$category= ($_POST['category']);
+$length= ($_POST['length']);
+$width= ($_POST['width']);
+$height= ($_POST['height']);
 
 //fields empty
-if(empty($webname))
+if(empty($p_name))
 {
-array_push($errors,"Please enter website name!");
+array_push($errors,"Please enter product name!");
 }
-if(empty($url))
+if(empty($p_code))
 {
-array_push($errors,"Please enter URL!");
+array_push($errors,"Please enter product code");
 }
 
 //no errors
 if(count($errors) == 0)
 {
-$sql="INSERT INTO websites (web_name,url) VALUES ('$webname','$url')";
+$sql="INSERT INTO 'products'('p_id', 'name', 'product_code', 'price', 'type', 'length', 'width', 'height','cat_id') VALUES ('$p_name','$p_code','$p_price','$p_type','$length','$width','$height',$category)";
 mysqli_query($db, $sql);
 
 header('location:website.php');
