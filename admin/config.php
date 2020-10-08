@@ -2,8 +2,6 @@
 session_start();
 $db=mysqli_connect('localhost','root','','content_management');
 $errors= array();
-$fullname="";
-$pass="";
 
 //$con=mysqli_connect($servername, $username, $password1, $db) or die("connection failed");
 //$mysqli=new mysqli($servername, $username, $password1, $db);
@@ -11,7 +9,7 @@ $pass="";
 if (isset($_POST['login']))
 {
     $username= ($_POST['username']);
-    $pass1= ($_POST['password']);
+    $password= ($_POST['password']);
     
 if(empty($username))
 {
@@ -23,8 +21,8 @@ if(empty($pass1))
 	array_push($errors, "Password is required");
 }
 if (count($errors)==0){
-	$password1= md5($pass1);//encript password before comparing with that from data base
-	$query="SELECT * FROM users WHERE user_name='$username' AND password='$password1'";
+	$password1= md5($password);//encript password before comparing with that from data base
+	$query="SELECT * FROM user WHERE username='$username' AND password='$password'";
 	$result = mysqli_query($db, $query);
 
 	if(mysqli_num_rows($result)==1){
@@ -33,7 +31,7 @@ if (count($errors)==0){
 		$username = $row['name'];
 		$_SESSION["user_id"] = $user_id;
 
-		header("Location: home.php");		    
+		header("Location: index.php");		    
 		}else{
             // array_push($errors,"wrong username/password");
             echo '<script type="text/javascript">
