@@ -260,76 +260,76 @@
                             <!-- <h6 class="m-0 font-weight-bold text-primary">Add products </h6> -->
                         </div>
                         <div class="card-body">
-                            <fo rm action="upload.php" enctype="multipart/form-data" class="dropzone">
+                            <form action="upload.php" enctype="multipart/form-data">
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Name</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Name">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Product Name" name="p_name">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Code</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Code">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Product Code" name="p_code">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Price</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Price">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Product Price" name="p_price">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Type</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Type">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Product Type" name="p_type">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Product Catergory</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Product Catergory">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Product Catergory" name="category">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Length</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Length">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Length" name="length">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Width</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Width">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Width" name="width">
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-3 col-form-label">Height</label>
                                     <div class="col-sm-9">
-                                        <input type="email" class="form-control" id="inputEmail3"
-                                            placeholder="Enter Height">
+                                        <input type="text" class="form-control" id="inputEmail3"
+                                            placeholder="Enter Height" name="height">
                                     </div>
                                 </div>
 
-                                <div id="image-upload">
+                                <!-- <div id="image-upload">
                                     <div>
                                         <h3>Drag and Drop File</h3>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <button type="submit" class="btn btn-primary">Add Product</button>
                             </form>
