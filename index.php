@@ -1,7 +1,12 @@
+<?php include('admin/config.php'); ?>
+<?php
+// $user_id = $_SESSION["user_id"];
+$products_qry = "SELECT * FROM products";
+$products_result = mysqli_query($db, $products_qry);
+// $row = mysqli_fetch_assoc($districts_result);
+?>
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from Davetheme.com/html/Dave_ecommerce/demo_22/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Sep 2020 20:02:10 GMT -->
 
 <head>
     <meta charset="UTF-8">
