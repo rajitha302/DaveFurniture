@@ -1,6 +1,6 @@
 <?php
 session_start();
-$db=mysqli_connect('localhost','root','','content_management');
+$db=mysqli_connect('localhost','root','','dave_furniture');
 $errors= array();
 $fullname="";
 $pass="";

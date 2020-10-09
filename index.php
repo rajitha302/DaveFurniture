@@ -16,8 +16,8 @@ $products_result = mysqli_query($db, $products_qry);
     <title>Dave Furniturs</title>
 
     <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Dave - Bootstrap eCommerce Template">
-    <meta name="author" content="SW-THEMES">
+    <meta name="description" content="Dave Furnitures">
+    <meta name="author" content="DAVE Furnitures (Pvt) Ltd">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
@@ -199,7 +199,7 @@ $products_result = mysqli_query($db, $products_qry);
                                 <!-- End .megamenu -->
                             </li>
                             <li>
-                                <a href="#" class="sf-with-ul">Pages</a>
+                                <a href="#" class="sf-with-ul">Gallary</a>
 
                                 <ul>
                                     <li><a href="cart.html">Shopping Cart</a></li>
@@ -229,9 +229,9 @@ $products_result = mysqli_query($db, $products_qry);
                                 </ul>
                             </li>
                             <li class="megamenu-container">
-                                <a href="product.html" class="sf-with-ul">Our Interior Solutions</a></li>
-                            <li class="float-right buy-effect"><a href="https://1.envato.market/DdLk5" target="_blank"><span>Contact Us</span></a></li>
-                            <li class="float-right special-effect"><a href="#">About Us</a></li>
+                                <a href="product.html">Our Interior Solutions</a></li>
+                            <li class="float-right "><a href="https://1.envato.market/DdLk5" target="_blank"><span>Contact Us</span></a></li>
+                            <li class="float-right"><a href="#">About Us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -1086,27 +1086,27 @@ $products_result = mysqli_query($db, $products_qry);
                     }
                 }">
                     <div class="category">
-                        <img src="/assets/images/office.svg" alt="office items">
+                        <img src="assets/images/office.svg" alt="office items">
                         <span>OFFICE</span>
                     </div>
                     <div class="category">
-                        <img src="/assets/images/living.svg" alt="living room items">
+                        <img src="assets/images/living.svg" alt="living room items">
                         <span>DINING ROOM</span>
                     </div>
                     <div class="category">
-                        <img src="/assets/images/dining.svg" alt="dining room items">
+                        <img src="assets/images/dining.svg" alt="dining room items">
                         <span>LIVING ROOM</span>
                     </div>
                     <div class="category">
-                        <img src="/assets/images/bed.svg" alt="bed room items">
+                        <img src="assets/images/bed.svg" alt="bed room items">
                         <span>BEDROOM</span>
                     </div>
                     <div class="category">
-                        <img src="/assets/images/outdoor.svg" alt="Outdoor items">
+                        <img src="assets/images/outdoor.svg" alt="Outdoor items">
                         <span>OUTDOOR</span>
                     </div>
                     <div class="category">
-                        <img src="/assets/images/accessories.svg" alt="accessories items">
+                        <img src="assets/images/accessories.svg" alt="accessories items">
                         <span>ACCESSORIES</span>
                     </div>
                 </div>
