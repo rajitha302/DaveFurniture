@@ -15,7 +15,7 @@ $products_result = mysqli_query($db, $products_qry);
 
     <title>Dave Furniturs</title>
 
-    <meta name="keywords" content="Dave Furnitures" />
+    <meta name="keywords" content="Dave Furnitures, Shop" />
     <meta name="description" content="Dave - Furnitures">
     <meta name="author" content="codezilla">
 
