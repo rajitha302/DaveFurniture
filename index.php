@@ -15,9 +15,9 @@ $products_result = mysqli_query($db, $products_qry);
 
     <title>Dave Furniturs</title>
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Dave - Bootstrap eCommerce Template">
-    <meta name="author" content="SW-THEMES">
+    <meta name="keywords" content="Dave Furnitures" />
+    <meta name="description" content="Dave - Furnitures">
+    <meta name="author" content="codezilla">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
